@@ -40,11 +40,11 @@ so you need internet for the exact typefaces; offline you get a fallback.
 ## 3. Publish on GitHub Pages (about 10 minutes, once)
 
 **Concept.** GitHub Pages serves the files in a repository as a website. If the repository
-is named `aleja29.github.io`, the site appears at `https://aleja29.github.io/`.
+is named `alejandrachernandez.github.io`, the site appears at `https://alejandrachernandez.github.io/`.
 Every later edit is: change the file, push, wait a minute, refresh.
 
-1. Sign in to GitHub as `aleja29`.
-2. Create a new **public** repository named exactly `aleja29.github.io`.
+1. Sign in to GitHub as `alejandrachernandez`.
+2. Create a new **public** repository named exactly `alejandrachernandez.github.io`.
    Leave it empty (no README, no .gitignore).
 3. From this folder, run:
 
@@ -54,14 +54,14 @@ Every later edit is: change the file, push, wait a minute, refresh.
    git add .
    git commit -m "Personal website"
    git branch -M main
-   git remote add origin https://github.com/aleja29/aleja29.github.io.git
+   git remote add origin https://github.com/alejandrachernandez/alejandrachernandez.github.io.git
    git push -u origin main
    ```
 
    GitHub will ask you to log in. Use a personal access token or the browser login flow.
 4. On GitHub: repository → **Settings** → **Pages** → Source: *Deploy from a branch*,
    branch `main`, folder `/ (root)` → Save.
-5. Wait one or two minutes, then open `https://aleja29.github.io/`.
+5. Wait one or two minutes, then open `https://alejandrachernandez.github.io/`.
 
 ### Updating the site later
 
