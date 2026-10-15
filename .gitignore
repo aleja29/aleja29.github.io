@@ -1,0 +1,2 @@
+# never publish the CV PDF (contains private address and phone numbers)
+/CV_*.pdf
