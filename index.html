@@ -134,10 +134,15 @@
             perception and robot decision making.
           </p>
           <p>
-            SIMNAV targets mobile robots, such as delivery robots, that operate mostly outdoors but must also work in
-            varied indoor environments. The goal is fast and scalable adaptation of segmentation models that is
-            practical on the robot itself. The team is Patric Jensfelt (PI), Olov Andersson and Michele Antonazzi
-            at KTH, and José Araújo, Clara Gómez and myself at Ericsson.
+            Our Digital Futures project with KTH targets mobile robots, such as delivery robots, that operate mostly
+            outdoors but must also work in varied indoor environments. The goal is fast and scalable adaptation of
+            segmentation models that is practical on the robot itself, evaluated on real robot data collected indoors
+            and outdoors rather than on benchmarks alone.
+          </p>
+          <p>
+            This builds on an earlier line of work on <strong>indoor scene understanding</strong> for service robots:
+            semantic and topological mapping, object search, place recognition and localisation in changing indoor
+            environments.
           </p>
         </div>
         <div class="tags" aria-label="Research interests">
@@ -149,24 +154,6 @@
           <span class="tag">Robot perception</span>
           <span class="tag">Semantic navigation</span>
           <span class="tag">On-device perception</span>
-        </div>
-
-        <div class="cards" style="margin-top:2rem">
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2"/><path d="M8 12h8M12 8v8"/></svg></div>
-            <h3>Training-free adaptation</h3>
-            <p>Adapting open-vocabulary segmentation models to new domains without back-propagation, using a library of lightweight adapters indexed by vision-language embeddings.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg></div>
-            <h3>Knowing when to adapt</h3>
-            <p>Multi-signal domain shift detection that fuses visual, adapter-drift and semantic signals to trigger adaptation only when the environment really changes.</p>
-          </article>
-          <article class="card">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/><circle cx="12" cy="10" r="2.5"/></svg></div>
-            <h3>Perception on the robot</h3>
-            <p>Efficient inference, offloading and resource-aware tracking so that adaptive perception runs on embedded hardware, using the network as a resource when it helps.</p>
-          </article>
         </div>
 
         <h3 class="pub-year" style="margin-top:2.4rem">Featured work</h3>
