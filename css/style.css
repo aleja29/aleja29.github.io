@@ -237,6 +237,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .contact-card h3 { font-size: 1.3rem; margin-bottom: .6rem; }
 .contact-card p { color: var(--ink-soft); font-size: .97rem; }
 .contact-card .email { font-family: var(--font-display); font-size: 1.15rem; display: inline-block; margin: .3rem 0 .8rem; }
+.contact-card .small { font-size: .9rem; color: var(--ink-mute); margin: 0; padding-top: .8rem; border-top: 1px dashed var(--line); }
+.office { font-style: normal; display: grid; gap: .55rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); color: var(--ink-soft); line-height: 1.5; }
+.office-label { font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); }
+.office strong { color: var(--ink); font-size: 1.1rem; font-family: var(--font-display); font-weight: 500; }
+.office a { font-size: .9rem; font-weight: 500; }
 
 /* footer */
 .site-footer { border-top: 1px solid var(--line); padding: 2rem 0 2.5rem; color: var(--ink-mute); font-size: .88rem; }
